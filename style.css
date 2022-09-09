@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.first-block{
+    background-color: #4516fe;
+}
+
+/* Nav Bar */
+
+.nav-bar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-logo{
+    margin-right: auto;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.list-btn{
+    display: flex;
+    margin-right: 10%;
+}
+
+.list{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.list li{
+    display: inline-block;
+    padding: 0px 18px;
+}
+
+li{
+    font-size: 15px;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+
+.trial-btn{
+    background-color: #15D9FD;
+    color: #ffffff;
+    border: none;
+    font-family: Roboto;
+    padding: 10px 20px 10px 20px;
+    margin-left: 40px;
+}
+
+
+/* Hero 1 */
+
+.operating-system{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.saas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header{
+    margin-top: 5%;
+}
+
+.hearder-saas{
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 700;
+}
+
+.lower-saas{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 15px;
+    font-family: Roboto;
+    font-weight: lighter;
+}
+
+/* Hero-2 */
+.operating-system{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.right-header{
+    margin-top: 50px;
+}
+
+.right-side-header{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.bottom-list{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    font-family: 'Roboto' sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 8px;
+}
+
+p{
+    font-family: 'Roboto' sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+.bottom-list-1{
+    display: flex;
+}
+
+
+.bottom-list-2{
+    margin-top: 24px;
+    display: flex;
+}
+
+.bottom-list-3{
+    margin-top: 24px;
+    display: flex;
+}
+
+img[alt="orange"]{
+    width: 17px;
+    height: 17px;
+}
+
+img[alt="blue"]{
+    width: 17px;
+    height: 17px;
+}
+
+img[alt="green"]{
+    width: 17px;
+    height: 17px;
+}
+
+/* Hero-3 */
+
+.lower-header{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+img[alt="web"]{
+    width: 40px;
+    height: 40px;
+    padding: 25px;
+    
+}
+
+img[alt="data"]{
+    width: 40px;
+    height: 40px;
+    padding: 25px;
+}
+
+img[alt="sec"]{
+    width: 40px;
+    height: 40px;
+    padding: 25px;
+}
+
+img[alt="sup"]{
+    width: 40px;
+    height: 40px;
+    padding: 25px;
+}
+
+.cards{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 20%;
+    margin-right: 10%;
+    gap: 4%;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 8px;
+    margin-top: 13px;
+}
+
+.header-active{
+    color: #fff;
+    text-align: center;
+}
+
+.card-p-active{
+    color: #fff;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+.card-p{
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.card-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px #000;
+    margin-bottom: 30px;
+}
+
+.block-1{
+    background-color:#4516fe ;
+    border-radius: 25px;
+}
+
+.back-img{
+    background-color: #fbeaea;
+    border-radius: 50%;
+}
+
+.card-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px #000;
+    margin-bottom: 30px;
+}
+
+.back-img-2{
+    background-color: #faf1ee;
+    border-radius: 50%;
+}
+
+.card-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px #000;
+    margin-bottom: 30px;
+}
+
+.back-img-3{
+    background-color:  #e8f4f7;
+    border-radius: 50%;
+}
+
+.card-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px #000;
+    margin-bottom: 30px;
+}
+
+.back-img-4{
+    background-color: #f3e6f5;
+    border-radius: 50%;
+}
+
+
